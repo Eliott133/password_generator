@@ -45,7 +45,7 @@ return (
     <div className="mt-4 text-center">
         <div className="mb-4 p-2 border rounded bg-gray-50 text-gray-700 relative">
         {copyMessage ? <p>{copyMessage}</p> : (password || 'Click Generate to create a password')}
-            <div className='absolute right-0 top-1/2 transform -translate-y-1/2 mr-2'>
+            <div className='absolute right-0 top-1/2 transform -translate-y-1/2 mr-2 cursor-pointer'>
                 <FaRegCopy onClick={copyToClipboard}/>
             </div>
         </div>
